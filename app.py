@@ -13,3 +13,7 @@ def hi():
     y = 10
     return f"Hello, your number is - {x+y} this time."
 
+@app.route("/finance")
+def hi():
+    return f"The price of MSFT will be 10$."
+
